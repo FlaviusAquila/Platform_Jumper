@@ -29,10 +29,10 @@ class Game:
         self.canvas_width = 500
         # UA: Завантаження фонів
         # EN: Load backgrounds
-        self.bg = PhotoImage(file='BAckGroundGIF/background_1.gif')
-        self.bg1 = PhotoImage(file='BAckGroundGIF/background_0.gif') # колір
-        self.bg2 = PhotoImage(file='BAckGroundGIF/background_2.gif') # жовто-чорне
-        self.bg3 = PhotoImage(file='BAckGroundGIF/BackGround11.gif') # нічне моторошне місто 500х500
+        self.bg = PhotoImage(file='BackGroundGIF/background_1.gif')
+        self.bg1 = PhotoImage(file='BackGroundGIF/background_0.gif') # колір
+        self.bg2 = PhotoImage(file='BackGroundGIF/background_2.gif') # жовто-чорне
+        self.bg3 = PhotoImage(file='BackGroundGIF/BackGround11.gif') # нічне моторошне місто 500х500
         w = self.bg.width()
         h = self.bg.height()
         # UA: Малюємо фон мозаїкою
